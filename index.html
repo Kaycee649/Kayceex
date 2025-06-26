@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ksyceeX | Passive Shadow Layer</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Shadow data layer earning silently.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      // Ghost traffic simulator
+      function ghostPing() {
+        fetch("https://api.ipify.org?format=json")
+          .then(response => response.json())
+          .then(data => {
+            console.log("Pinged IP: " + data.ip);
+          });
+      }
+      setInterval(ghostPing, 10000); // ping every 10 secs
+    </script>
+  </head>
+  <body>
+    <h1 style="text-align:center; margin-top:30%;">🔒 ksyceeX is active</h1>
+    <p style="text-align:center;">Passive shadow traffic layer running...</p>
+  </body>
+</html>
